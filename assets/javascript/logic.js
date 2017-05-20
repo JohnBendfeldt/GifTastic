@@ -1,6 +1,6 @@
    $( document ).ready(function() { 
     var results;
-    var topics = ["freedom", "trump", "america", "liberty"];
+    var topics = ["freedom", "trump", "america", "liberty", "pepe"];
         $("#add-topic").on("click", function(event) {
           event.preventDefault();
           // This line grabs the input from the textbox
