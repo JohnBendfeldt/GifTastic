@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada');
+
+body {
+	background-color: #F0D785;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	text-shadow:
+			-1px -1px 0 #FFFFFF,  
+    		1px -1px 0 #FFFFFF,
+    		-1px 1px 0 #FFFFFF,
+     		1px 1px 0 #FFFFFF;
+}
+
+button {
+	background-image: url(../images/usa.gif);
+	background-size: 100%;
+	background-color: #000;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	text-shadow:
+			-2px -2px 0 #000,  
+    		2px -2px 0 #000,
+    		-2px 2px 0 #000,
+     		2px 2px 0 #000;
+    margin: 5px 5px;
+    padding: 10px 10px;
+}
+
+input {
+	font-size: 20px;
+	width: 20%;
+}
