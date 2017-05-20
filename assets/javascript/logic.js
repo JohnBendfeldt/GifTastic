@@ -41,7 +41,7 @@
         // Grabbing and storing the data-topic property value from the button
         var dataName = $(this).attr("data-name");
         // Constructing a queryURL using the topic name
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
           dataName + "&api_key=dc6zaTOxFJmzC&limit=10";
         // Performing an AJAX request with the queryURL
         $.ajax({
