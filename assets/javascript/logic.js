@@ -11,8 +11,9 @@
           }
            else {
             renderButtons();
-          }
-          })
+          };
+          $("#topic-input").val("");
+          });
 
        
     //renders buttons
@@ -25,7 +26,7 @@
           a.text(topics[i]);
           $("#buttons-view").append(a);
         } 
-    }
+    };
 
   
       
